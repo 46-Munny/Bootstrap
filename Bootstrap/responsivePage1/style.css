@@ -1,0 +1,319 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+width:100%;
+overflow-x:hidden;
+}
+
+.section1{
+
+  width: 100%;
+  background: rgb(247,132,49);
+background: linear-gradient(162deg, rgba(247,132,49,1) 0%, rgba(251,187,140,1) 0%, rgba(255,255,255,1) 38%);
+
+
+}
+
+nav{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.cicon{
+font-size: 30px;
+color: rgba(251,187,140,1);
+}
+
+.cicon2{
+    border:1px dotted  rgb(247,132,49);
+
+}
+
+.cicon2:hover{
+  border: 3px solid rgb(247,132,49);
+  border-radius: 5px;
+}
+
+
+.brand{
+  color:rgb(247,132,49);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.item{
+  font-size: 20px;
+  color: black;
+  display: inline-block;
+  padding-left: 65px !important;
+
+}
+.item:hover{
+  color: rgba(251,187,140,1);
+}
+
+.brand:hover{
+  color: rgba(251,187,140,1);
+}
+
+.contentPart2{
+  position: relative;
+  box-sizing: border-box;
+}
+
+.img1{
+  height: 42rem;
+  max-width: 30rem;
+  position: absolute;
+  right: 8rem;
+  top: 5rem;
+
+}
+
+.img2{
+  height: 52rem;
+  width: 30rem;
+  margin-right: 50rem;
+  transform: rotate(16deg);
+
+
+}
+
+.contentPart1{
+  margin-top: 8rem;
+
+}
+
+.headert{
+  margin-left: 4.125rem;
+  font-size: 4.125rem;
+  font-weight: 400;
+  width: 27rem;
+  margin-bottom: 0;
+
+}
+
+.headert2{
+  margin-left: 4.125rem;
+  font-size: 4.125rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  color:rgb(247,132,49);
+
+}
+
+.parat{
+    margin-left: 4.125rem;
+  width: 30rem;
+}
+
+.searchp{
+  margin-left: 4.125rem;
+  margin-top: 2rem;
+  position: relative;
+}
+
+.searchp{
+  height: 2.75rem;
+  width: 30rem;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 47px;
+}
+.searchp input{
+
+
+border-radius: 47px;
+  height: 2.75rem;
+  width: 22rem;
+  padding-left: 10px;
+  border-width: 0px;
+  border-color: none;
+
+
+}
+
+
+.button-search{
+  display: inline-block;
+  color: white;
+  padding: 5px 19px;
+  background-color: rgb(247,132,49);
+  border-radius: 20px;
+
+  margin-top:0.3125rem;
+
+}
+
+.brandimg{
+  margin-left: 7.125rem;
+  margin-top: 6rem;
+
+}
+
+.brandimg1{
+  margin-bottom:2.5rem;
+}
+
+.brandimg2{
+  margin-bottom:2.5rem;
+}
+
+.bimg1{
+  background-color:white;
+  height: 40px;
+  width: 112px;
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 20px;
+  padding: 10px;
+  margin-right: 15px;
+
+}
+
+.bimg2{
+  background-color:white;
+  height: 40px;
+  width: 112px;
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 20px;
+  padding: 10px;
+
+
+}
+.bimg3{
+  background-color:white;
+  height: 40px;
+  width: 112px;
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 20px;
+  padding: 10px;
+  margin-right: 15px;
+
+}
+.bimg4{
+  background-color:white;
+  height: 40px;
+  width: 112px;
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 20px;
+  padding: 10px;
+
+}
+
+@media  screen and (max-width:768px){
+/*.dmenu{
+display: flex;
+justify-content: center;
+
+}*/
+
+.item{
+  padding-left: 0px !important;
+}
+
+.item:hover{
+  color: rgba(251,187,140,1);
+}
+
+
+
+}
+
+
+
+@media screen and (min-width: 365px) and (max-width: 480px){
+
+  .searchp{
+    height: 2.75rem;
+    width: 18rem;
+      box-shadow: 5px 10px 18px #888888;
+      border-radius: 47px;
+  }
+  .searchp input{
+
+
+  border-radius: 47px;
+    height: 2.75rem;
+    width: 11rem;
+    padding-left: 10px;
+    border-width: 0px;
+    border-color: none;
+
+
+  }
+
+  .bimg1{
+    margin-bottom:1rem;
+  }
+.bimg3{
+  margin-bottom:1rem;
+}
+.img1{
+  height: 42rem;
+  width: 23rem;
+  position: absolute;
+  right: 1rem;
+  top: 5rem;
+
+}
+
+.headert{
+  margin-left: 3.125rem;
+  font-size: 3.125rem;
+  font-weight: 400;
+  width: 18rem;
+  margin-bottom: 0;
+
+}
+
+.headert2{
+  margin-left: 3.125rem;
+  font-size: 3.125rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  color:rgb(247,132,49);
+
+}
+
+.parat{
+    margin-left: 3.125rem;
+  width: 18rem;
+}
+
+.brandimg{
+  margin-left: 4.125rem;
+  margin-top: 6rem;
+}
+
+
+
+}
+
+
+@media  screen and (min-width: 481px) and (max-width:562px){
+
+
+  .searchp{
+    height: 2.75rem;
+    width: 22rem;
+      box-shadow: 5px 10px 18px #888888;
+      border-radius: 47px;
+  }
+  .searchp input{
+
+
+  border-radius: 47px;
+    height: 2.75rem;
+    width: 13rem;
+    padding-left: 10px;
+    border-width: 0px;
+    border-color: none;
+
+
+  }
+
+
+}

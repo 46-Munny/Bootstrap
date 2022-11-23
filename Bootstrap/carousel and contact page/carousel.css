@@ -1,0 +1,19 @@
+.carousel-item img{
+  height: 300px;
+
+}
+.carousel{
+  margin-top: 100px;
+}
+
+.btn2{
+
+width: 10px !important;
+height: 10px !important;
+
+border-radius: 100% !important;
+}
+
+.active{
+  background-color: blue !important;
+}
